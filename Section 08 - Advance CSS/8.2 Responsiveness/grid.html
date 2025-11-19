@@ -9,16 +9,16 @@
     .grid-container {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 100px 200px 200px;
+      grid-template-rows: 100px 150px 150px 150px;
       gap: 30px;
     }
 
     .first {
-      grid-column: span 2;
+      grid-column: span 2
     }
 
     .card {
-      background-color: blue;
+      background-color: green;
     }
   </style>
 </head>
@@ -27,6 +27,8 @@
   <h1>CSS Grid</h1>
   <div class="grid-container">
     <div class="first card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
     <div class="card"></div>
     <div class="card"></div>
     <div class="card"></div>
