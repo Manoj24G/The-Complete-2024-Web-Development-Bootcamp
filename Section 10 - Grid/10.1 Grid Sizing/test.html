@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CSS Grid Sizing Exercise</title>
   <style>
     body {
@@ -98,20 +98,19 @@
   <textarea id="user-css" placeholder="Write your CSS code here..." rows="25">
 /* Write your CSS code below to make the purple items size, grow and shrink like the green ones.*/
 
-.grid-container {
-  display: grid;
-  grid-template-rows: 1fr 1fr 2fr;
-  grid-template-columns: auto 400px minmax(200px, 500px);
-  grid-auto-rows: 50px;
-}
-  
+    .grid-container {
+      display: grid;
+      grid-template-rows: 1fr 1fr 2fr;
+      grid-template-columns: auto 400px minmax(200px, 500px);
+      grid-auto-rows: 50px;
+    }
   </textarea>
   <button onclick="applyUserCss()">Apply CSS</button>
 
   <script>
     function applyUserCss() {
-      const userCss = document.getElementById('user-css').value;
-      const style = document.createElement('style');
+      const userCss = document.getElementById("user-css").value;
+      const style = document.createElement("style");
       style.innerHTML = userCss;
       document.head.appendChild(style);
     }
