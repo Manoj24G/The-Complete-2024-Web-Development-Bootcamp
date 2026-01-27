@@ -8,3 +8,6 @@ $("p").css("color", "blue");
 $("h1").text("Bye");
 $("button").html("<em>Click Me</em>");
 $("button").html("<em>Click Me</em>");
+
+// 155. Manipulating Attributes with jQuery
+$("a").attr("href", "https://www.yahoo.com");
