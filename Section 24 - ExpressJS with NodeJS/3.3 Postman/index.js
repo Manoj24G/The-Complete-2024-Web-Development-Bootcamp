@@ -15,18 +15,19 @@ app.get("/", (req, res) => {
 
 app.post("/register", (req, res) => {
   //Do something with the data
-  res.sendStatus(201);
+  res.send("<h1>Register Page</h1>");
+  // res.sendStatus(201);
 });
 
-app.put("/user/angela", (req, res) => {
+app.put("/user/manoj", (req, res) => {
   res.sendStatus(200);
 });
 
-app.patch("/user/angela", (req, res) => {
+app.patch("/user/manoj", (req, res) => {
   res.sendStatus(200);
 });
 
-app.delete("/user/angela", (req, res) => {
+app.delete("/user/manoj", (req, res) => {
   //Deleting
   res.sendStatus(200);
 });
