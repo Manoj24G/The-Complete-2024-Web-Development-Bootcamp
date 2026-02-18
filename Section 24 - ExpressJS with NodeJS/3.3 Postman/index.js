@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 app.post("/register", (req, res) => {
   //Do something with the data
   res.send("<h1>Register Page</h1>");
-  // res.sendStatus(201);
+  res.sendStatus(201);
 });
 
 app.put("/user/manoj", (req, res) => {
