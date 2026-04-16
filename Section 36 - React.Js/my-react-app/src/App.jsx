@@ -24,6 +24,24 @@ const customStyle = {
   border: "1px solid blue",
 };
 
+// 287. React Styling Practice
+const date = new Date();
+const currentTime = date.getHours();
+let greeting;
+const customStyle1 = {
+  color: "",
+};
+if (currentTime < 12) {
+  greeting = "Good Morning";
+  customStyle1.color = "red";
+} else if (currentTime < 16) {
+  greeting = "Good Afternoon";
+  customStyle1.color = "green";
+} else {
+  greeting = "Good Evening";
+  customStyle1.color = "blue";
+}
+
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -54,7 +72,10 @@ function App() {
       <img src={randomImg} alt="" srcset="" />
       <br />
       <p>286. Inline Styling for React Elements</p>
-      <h1 style={customStyle}>Hello World!</h1>,
+      <h1 style={customStyle}>Hello World!</h1>
+      <br />
+      <p>287. React Styling Practice</p>
+      <h1 style={customStyle1}> {greeting}</h1>,
     </>
   );
 }
