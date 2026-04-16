@@ -14,6 +14,9 @@ var luckyNumber = Math.floor(Math.random() * 10);
 var name = "Manoj";
 var currentYear = new Date().getFullYear();
 
+// 285. JSX Attributes & Styling React Elements
+const randomImg = "https://picsum.photos/200/200";
+
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -38,6 +41,10 @@ function App() {
       <p>284. Javascript Expressions in JSX Practice</p>
       <p>Created by {name}.</p>
       <p>Copyright {currentYear}.</p>
+      <br />
+      <p>285. JSX Attributes & Styling React Elements</p>
+      <h1 className="heading">A Random Image</h1>
+      <img src={randomImg} alt="" srcset="" />
     </>
   );
 }
