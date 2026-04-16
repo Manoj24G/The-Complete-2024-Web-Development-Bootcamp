@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Heading from "./Heading";
-import List from "./LIst";
+import Heading from "./Components/Heading";
+import List from "./Components/List";
 // import reactLogo from './assets/react.svg'
 // import viteLogo from './assets/vite.svg'
 // import heroImg from './assets/hero.png'
