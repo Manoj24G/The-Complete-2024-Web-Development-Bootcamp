@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Heading from "./Heading";
+import List from "./LIst";
 // import reactLogo from './assets/react.svg'
 // import viteLogo from './assets/vite.svg'
 // import heroImg from './assets/hero.png'
@@ -75,7 +77,11 @@ function App() {
       <h1 style={customStyle}>Hello World!</h1>
       <br />
       <p>287. React Styling Practice</p>
-      <h1 style={customStyle1}> {greeting}</h1>,
+      <h1 style={customStyle1}> {greeting}</h1>
+      <br />
+      <p>288. React Components</p>
+      <Heading />
+      <List />
     </>
   );
 }
