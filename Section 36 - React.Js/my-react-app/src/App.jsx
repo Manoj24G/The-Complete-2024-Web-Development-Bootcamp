@@ -5,6 +5,11 @@ import ReactDOM from "react-dom";
 // import heroImg from './assets/hero.png'
 // import "./App.css";
 
+// 283. Javascript Expressions in JSX & ES6 Template Literals
+var fName = "Manoj";
+var lName = "Gawade";
+var luckyNumber = Math.floor(Math.random() * 10);
+
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -22,6 +27,9 @@ function App() {
         <li>MongoDB</li>
       </ul>
       <br />
+      <p>283. Javascript Expressions in JSX & ES6 Template Literals</p>
+      <h1>Hello {`${fName} ${lName}`}!</h1>
+      <p>Your lucky number is {luckyNumber}</p>
     </>
   );
 }
