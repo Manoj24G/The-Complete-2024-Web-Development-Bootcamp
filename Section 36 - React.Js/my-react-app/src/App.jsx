@@ -17,6 +17,13 @@ var currentYear = new Date().getFullYear();
 // 285. JSX Attributes & Styling React Elements
 const randomImg = "https://picsum.photos/200/200";
 
+// 286. Inline Styling for React Elements
+const customStyle = {
+  color: "red",
+  fontSize: "40px",
+  border: "1px solid blue",
+};
+
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -45,6 +52,9 @@ function App() {
       <p>285. JSX Attributes & Styling React Elements</p>
       <h1 className="heading">A Random Image</h1>
       <img src={randomImg} alt="" srcset="" />
+      <br />
+      <p>286. Inline Styling for React Elements</p>
+      <h1 style={customStyle}>Hello World!</h1>,
     </>
   );
 }
