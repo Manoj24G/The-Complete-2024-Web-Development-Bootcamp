@@ -10,6 +10,10 @@ var fName = "Manoj";
 var lName = "Gawade";
 var luckyNumber = Math.floor(Math.random() * 10);
 
+// 284. Javascript Expressions in JSX Practice
+var name = "Manoj";
+var currentYear = new Date().getFullYear();
+
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -30,6 +34,10 @@ function App() {
       <p>283. Javascript Expressions in JSX & ES6 Template Literals</p>
       <h1>Hello {`${fName} ${lName}`}!</h1>
       <p>Your lucky number is {luckyNumber}</p>
+      <br />
+      <p>284. Javascript Expressions in JSX Practice</p>
+      <p>Created by {name}.</p>
+      <p>Copyright {currentYear}.</p>
     </>
   );
 }
