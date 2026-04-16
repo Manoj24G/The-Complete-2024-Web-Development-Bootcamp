@@ -14,6 +14,14 @@ function App() {
       <p>281. Introduction to JSX and Babel</p>
       <h1>Hello World</h1>
       <br />
+      <p>282. JSX Code Practice</p>
+      <h1>Top programming languages</h1>
+      <ul>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>MongoDB</li>
+      </ul>
+      <br />
     </>
   );
 }
