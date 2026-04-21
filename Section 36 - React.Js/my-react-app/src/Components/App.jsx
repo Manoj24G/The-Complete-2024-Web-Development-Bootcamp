@@ -5,6 +5,7 @@ import List from "./List";
 import Greetings from "./Greetings";
 // import pi, { doublePi, triplePi } from "./Math";
 import * as pi from "./Math";
+import * as Calculator from "./Calculator";
 // import reactLogo from './assets/react.svg'
 // import viteLogo from './assets/vite.svg'
 // import heroImg from './assets/hero.png'
@@ -100,6 +101,13 @@ function App() {
         <li>{pi.triplePi()}</li>
       </ul>
       <br />
+      <p>291. Javascript ES6 Import, Export and Modules Practice</p>
+      <ul>
+        <li>{Calculator.add(15, 50)}</li>
+        <li>{Calculator.multiply(60, 10)}</li>
+        <li>{Calculator.subtract(250, 20)}</li>
+        <li>{Calculator.divide(150, 30)}</li>
+      </ul>
     </>
   );
 }
