@@ -74,7 +74,7 @@ function App() {
       <br />
       <p>285. JSX Attributes & Styling React Elements</p>
       <h1 className="heading">A Random Image</h1>
-      <img src={randomImg} alt="" srcset="" />
+      <img src={randomImg} alt="Random Image" />
       <br />
       <p>286. Inline Styling for React Elements</p>
       <h1 style={customStyle}>Hello World!</h1>
@@ -90,7 +90,7 @@ function App() {
       <p>289. React Components Practice</p>
       <Greetings />
       <br />
-      <p>289. React Components Practice</p>
+      <p>290. Javascript ES6 - Import, Export and Modules</p>
       <ul>
         {/* <li>{pi}</li>
         <li>{doublePi()}</li>
@@ -99,6 +99,7 @@ function App() {
         <li>{pi.doublePi()}</li>
         <li>{pi.triplePi()}</li>
       </ul>
+      <br />
     </>
   );
 }
