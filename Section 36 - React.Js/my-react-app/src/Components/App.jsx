@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import Heading from "./Heading";
 import List from "./List";
 import Greetings from "./Greetings";
+// import pi, { doublePi, triplePi } from "./Math";
+import * as pi from "./Math";
 // import reactLogo from './assets/react.svg'
 // import viteLogo from './assets/vite.svg'
 // import heroImg from './assets/hero.png'
@@ -87,6 +89,16 @@ function App() {
       <br />
       <p>289. React Components Practice</p>
       <Greetings />
+      <br />
+      <p>289. React Components Practice</p>
+      <ul>
+        {/* <li>{pi}</li>
+        <li>{doublePi()}</li>
+        <li>{triplePi()}</li> */}
+        <li>{pi.default}</li>
+        <li>{pi.doublePi()}</li>
+        <li>{pi.triplePi()}</li>
+      </ul>
     </>
   );
 }
